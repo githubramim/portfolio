@@ -1,242 +1,360 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Dev Ramim - Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ramim Portfolio</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/custom.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
-  <!-- Header -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#hero">
-            <h1><span>Dev</span>Ramim <span></span></h1>
-          </a>
-        </div>
-        <div class="nav-list">
-          <div class="hamburger">
-            <div class="bar"></div>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top" id="navbar">
+    <div class="container-fluid px-4">
+      <!-- Brand Logo -->
+      <a class="navbar-brand fw-bold" href="#home">
+        <i class="fas fa-code"></i> Web Developer
+      </a>
+
+      <!-- Toggle Button for Mobile -->
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation Items -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center gap-2">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+          <!-- Dark Mode Toggle -->
+          <li class="nav-item">
+            <button class="btn btn-outline-light rounded-circle p-2" id="darkModeToggle" title="Toggle Dark Mode">
+              <i class="fas fa-moon"></i>
+            </button>
+          </li>
+          <!-- Call Me Button -->
+          <li class="nav-item">
+            <a href="tel:+8801234567890" class="btn btn-danger btn-sm">
+              <i class="fas fa-phone"></i> Call Me
+            </a>
+          </li>
+          <!-- Hire Me Button -->
+          <li class="nav-item">
+            <a href="#contact" class="btn btn-success btn-sm">
+              <i class="fas fa-briefcase"></i> Hire Me
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section / Home -->
+  <section id="home" class="hero-section">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-8">
+          <h1 class="display-4 fw-bold mb-4 fade-in">Welcome to My Portfolio</h1>
+          <p class="lead mb-5 fade-in" style="animation-delay: 0.2s;">
+            I'm a passionate Web Developer creating stunning, responsive websites and web applications
+          </p>
+          <div class="d-flex gap-3 justify-content-center flex-wrap fade-in" style="animation-delay: 0.4s;">
+            <a href="#portfolio" class="btn btn-primary btn-lg">
+              <i class="fas fa-arrow-down"></i> View My Work
+            </a>
+            <a href="#contact" class="btn btn-outline-primary btn-lg">
+              <i class="fas fa-envelope"></i> Get In Touch
+            </a>
           </div>
-          <ul>
-            <li><a href="#hero" data-after="Home">Home</a></li>
-            <li><a href="#services" data-after="Service">Services</a></li>
-            <li><a href="#projects" data-after="Projects">Projects</a></li>
-            <li><a href="#about" data-after="About">About</a></li>
-            <li><a href="#contact" data-after="Contact">Contact</a></li>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section (Placeholder) -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold">About Me</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <p class="text-muted fs-5">I am a dedicated web developer with expertise in modern web technologies.
+            I create responsive, user-friendly websites that help businesses grow online.</p>
+        </div>
+        <div class="col-lg-6">
+          <ul class="list-unstyled">
+            <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> Full Stack Development</li>
+            <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> Responsive Design</li>
+            <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> Performance Optimization</li>
+            <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> SEO Friendly</li>
           </ul>
         </div>
       </div>
     </div>
   </section>
-  
-  <!-- End Header -->
-  <!-- Hero Section  -->
 
-  <section id="hero">
-    <div class="hero container">
-      <div>
-        <h1>Hello, <span></span></h1>
-        <h1>This is <span></span></h1>
-        <!-- <h1 style="color: pink; text-s; ">Designer and Developer <span></span></h1> -->
-        <h1>RAMIM<span></span></h1>
-        <a href="#projects" type="button" class="cta">Portfolio</a>
+  <!-- Portfolio Section (Placeholder) -->
+  <section id="portfolio" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold">My Portfolio</h2>
+        <div class="divider"></div>
       </div>
-    </div>
-  </section>
-  <!-- End Hero Section  -->
-
-  <!-- Service Section -->
-  <section id="services">
-    <div class="services container">
-      <div class="service-top">
-        <h1 class="section-title">Ser<span>vi</span>ces</h1>
-        <p>Hello, I am Web designer, developer and also a UI/UX designer for over the years</p>
-      </div>
-      <div class="service-bottom">
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Web Design</h2>
-          <p>Hello, I am Web designer for over the years</p>
-        </div>
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Web Development</h2>
-          <p>Hello, I am Web developer for over the years</p>
-        </div>
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>UI/UX Design</h2>
-          <p>Hello, I am UI/UX designer for over the years</p>
-        </div>
-        <!-- <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Web Design</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
-            architecto placeat beatae tenetur officia quod</p>
-        </div> -->
-      </div>
-    </div>
-  </section>
-  <!-- End Service Section -->
-
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="projects container">
-      <div class="projects-header">
-        <h1 class="section-title">Recent <span>Projects</span></h1>
-      </div>
-      <div class="all-projects">
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 1</h1>
-            <h2>Coding is Love</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
-              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
-              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-          </div>
-          <div class="project-img">
-            <img src="./img/img-1.png" alt="img">
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-card">
+            <div class="portfolio-img">
+              <i class="fas fa-globe fa-3x"></i>
+            </div>
+            <h5 class="mt-3">Project 1</h5>
+            <p>Modern website design and development</p>
           </div>
         </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 2</h1>
-            <h2>Coding is Love</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
-              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
-              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-          </div>
-          <div class="project-img">
-            <img src="./img/img-1.png" alt="img">
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-card">
+            <div class="portfolio-img">
+              <i class="fas fa-mobile-alt fa-3x"></i>
+            </div>
+            <h5 class="mt-3">Project 2</h5>
+            <p>Responsive mobile applications</p>
           </div>
         </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 3</h1>
-            <h2>Coding is Love</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
-              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
-              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-          </div>
-          <div class="project-img">
-            <img src="./img/img-1.png" alt="img">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 4</h1>
-            <h2>Coding is Love</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
-              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
-              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-          </div>
-          <div class="project-img">
-            <img src="./img/img-1.png" alt="img">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 5</h1>
-            <h2>Coding is Love</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
-              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
-              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-          </div>
-          <div class="project-img">
-            <img src="./img/img-1.png" alt="img">
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-card">
+            <div class="portfolio-img">
+              <i class="fas fa-cogs fa-3x"></i>
+            </div>
+            <h5 class="mt-3">Project 3</h5>
+            <p>Custom web solutions</p>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- End Projects Section -->
 
-  <!-- About Section -->
-  <section id="about">
-    <div class="about container">
-      <div class="col-left">
-        <div class="about-img">
-          <img src="./img/Passport size 365 (Office).png" alt="img">
-        </div>
+  <!-- Services Section (Placeholder) -->
+  <section id="services" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold">My Services</h2>
+        <div class="divider"></div>
       </div>
-      <div class="col-right">
-        <h1 class="section-title">About <span>me</span></h1>
-        <h2>Front End Developer</h2>
-        <p>Hello There! This ts Tanvir Bin Faruk Ramim and I'm a Front End Developer From Cox's Bazar, Bangladesh. I am Bangladesh Technical Education Board (BTEB) Certified Web Development Trainer and also a Conpetency Based Assesment and Trainer (CBT&A) from Bangladesh Technical Education Board (BTEB) </p>
-        <a href="RamimCV.docx" class="cta">Download Resume</a>
-        <a href="https://wa.me/message/IPLOYGXIWYLNO1" class="cta">Contact Whatsapp</a>
-        <a href="https://facebook.com/TanvirRamimDM" class="cta">Facebook</a>
-        <!-- <a href="https://wa.me/message/IPLOYGXIWYLNO1" class="cta">Contact Whatsapp</a> -->
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card text-center p-4">
+            <i class="fas fa-paint-brush fa-2x mb-3"></i>
+            <h5>Web Design</h5>
+            <p>Beautiful and modern UI/UX design</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card text-center p-4">
+            <i class="fas fa-code fa-2x mb-3"></i>
+            <h5>Web Development</h5>
+            <p>Full-stack development solutions</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card text-center p-4">
+            <i class="fas fa-rocket fa-2x mb-3"></i>
+            <h5>Optimization</h5>
+            <p>Performance and SEO optimization</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  <!-- End About Section -->
+
+  <!-- Contact Section (Placeholder) -->
+
+
+  <!-- Blog Section (Placeholder) -->
+  <section id="blog" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold">Latest Articles</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="blog-card">
+            <div class="blog-date">Nov 12, 2025</div>
+            <h5>Web Development Trends 2025</h5>
+            <p>Explore the latest trends in web development</p>
+            <a href="#" class="btn btn-sm btn-outline-primary">Read More</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="blog-card">
+            <div class="blog-date">Nov 10, 2025</div>
+            <h5>CSS Tips and Tricks</h5>
+            <p>Master modern CSS techniques</p>
+            <a href="#" class="btn btn-sm btn-outline-primary">Read More</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="blog-card">
+            <div class="blog-date">Nov 8, 2025</div>
+            <h5>JavaScript Best Practices</h5>
+            <p>Write better JavaScript code</p>
+            <a href="#" class="btn btn-sm btn-outline-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <!-- Contact Section -->
-  <section id="contact">
-    <div class="contact container">
-      <div>
-        <h1 class="section-title">Contact <span>info</span></h1>
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold">Get In Touch</h2>
+        <div class="divider"></div>
       </div>
-      <div class="contact-items">
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
-          <div class="contact-info">
-            <h1>Phone</h1>
-            <h2>+8801889421708</h2>
-           
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
-          <div class="contact-info">
-            <h1>Mail</h1>
-            <h2>inboxtotanvirbinfarukramim@gmail.com</h2>
-            
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
-          <div class="contact-info">
-            <h1>Address</h1>
-            <h2>Cox's Bazar-4700, Chittagong, Bangladesh</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Contact Section -->
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <form id="contactForm" method="POST" action="https://formspree.io/f/YOUR_FORM_ID">
+            <div class="row g-3">
+              <!-- Name -->
+              <div class="col-md-6">
+                <label for="name" class="form-label fw-bold">Name <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="name" name="name" required placeholder="Your Full Name">
+              </div>
 
-  <!-- Footer -->
-  <section id="footer">
-    <div class="footer container">
-      <div class="brand">
-        <h1><span>Dev</span>ramim <span></span></h1>
+              <!-- Email -->
+              <div class="col-md-6">
+                <label for="email" class="form-label fw-bold">Email <span class="text-danger">*</span></label>
+                <input type="email" class="form-control" id="email" name="email" required placeholder="your@email.com">
+              </div>
+
+              <!-- Phone Number -->
+              <div class="col-md-6">
+                <label for="phone" class="form-label fw-bold">Phone Number <span class="text-danger">*</span></label>
+                <input type="tel" class="form-control" id="phone" name="phone" required placeholder="+880 1234567890">
+              </div>
+
+              <!-- Address -->
+              <div class="col-md-6">
+                <label for="address" class="form-label fw-bold">Address</label>
+                <input type="text" class="form-control" id="address" name="address" placeholder="Your Address">
+              </div>
+
+              <!-- Purpose Dropdown -->
+              <div class="col-md-12">
+                <label for="purpose" class="form-label fw-bold">Purpose <span class="text-danger">*</span></label>
+                <select class="form-select" id="purpose" name="purpose" required>
+                  <option value="">Select a Purpose</option>
+                  <option value="Building From Scratch">Building From Scratch</option>
+                  <option value="Add/Remove Feature">Add/Remove Feature</option>
+                  <option value="Others">Others</option>
+                </select>
+              </div>
+
+              <!-- Message -->
+              <div class="col-md-12">
+                <label for="message" class="form-label fw-bold">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Tell me about your project..."></textarea>
+              </div>
+
+              <!-- Submit Button -->
+              <div class="col-md-12">
+                <button type="submit" class="btn btn-success btn-lg w-100">
+                  <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
-      <h2>Your Complete Web Solution</h2>
-      <div class="social-icon">
-        <div class="social-item">
-          <a href="https://facebook.com/TanvirRamimDM"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
-        </div>
-        <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
-        </div>
-        <div class="social-item">
-          <a href="https://wa.me/message/IPLOYGXIWYLNO1"><img src="https://img.icons8.com/bubbles/100/000000/whatsapp.png" /></a>
-        </div>
-        <div class="social-item">
-          <a href="https://github.com/githubramim"><img src="https://img.icons8.com/bubbles/100/000000/github.png" /></a>
-        </div>
-      </div>
-      <p>Copyright © 2024 Ramim. All rights reserved</p>
     </div>
   </section>
-  <!-- End Footer -->
+  <!-- Footer -->
+  <footer class="footer py-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8">
+          <h5 class="mb-3">Let's Connect</h5>
+          <div class="social-links mb-4">
+            <a href="https://github.com" target="_blank" class="social-icon">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" class="social-icon">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </div>
+          <p class="text-muted">Freelance Web Developer | Full Stack Developer | UI/UX Enthusiast</p>
+        </div>
+        <div class="col-lg-4 text-lg-end">
+          <h5 class="mb-3">Bangladesh Time</h5>
+          <div id="liveTime" class="fs-5 fw-bold" style="font-family: 'Courier New', monospace;">
+            <span id="timeDisplay">Loading...</span>
+          </div>
+          <div class="mt-2">
+            <small class="text-muted" id="dateDisplay">Loading...</small>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="text-muted mb-0">&copy; 2025 Web Developer. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="text-muted mb-0">Made with <i class="fas fa-heart text-danger"></i> by Your Name</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="./js/bootstrap.min.js"></script>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Custom App JS -->
   <script src="./app.js"></script>
 </body>
 
