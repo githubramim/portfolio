@@ -169,7 +169,10 @@ body.dark-mode #darkModeToggle i {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, var(--primary-color) 0%, #0056b3 100%);
+  background-image: url(../I\ will\ design\ a\ modern\ responsive\ website\ using\ Bootstrap\ 5\ and\ PHP.png);
+  /* background: linear-gradient(135deg, var(--primary-color) 0%, #0056b3 100%); */
+  background-size: cover;
+  
   color: white;
   margin-top: 60px;
   position: relative;
