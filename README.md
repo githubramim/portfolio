@@ -1,39 +1,105 @@
-MIT License
 
-Copyright (c) 2020 Tanvir Bin Faruk Ramim
+# Developer Ramim - Portfolio
 
-OWNER INFO
+Welcome to my professional portfolio website. I'm a Full Stack Developer specializing in creating responsive, modern web applications.
 
-Owner Name: Tanvir Bin Faruk Ramim
-Mail: inboxtotanvirbinfarukramim@gmail.com
-WhatsApp Number: +8801889421708
-Hire me for best developing!
-Feel free to contact...
+## 📋 Table of Contents
+- [About Me](#about-me)
+- [Services](#services)
+- [Contact](#contact)
+- [Social Links](#social-links)
 
-👋 Hi, I'm Tanvir Bin Faruk Ramim, a Level-IV certified Trainer web designer and developer from Bangladesh Technical Education Board(BTEB). I am currently in Coxs Bazar Sadar, Bangladesh. Passionate about creating user-friendly web experiences and exploring new technologies in web development.
+## 👨‍💻 About Me
 
-🌐 Check out my repositories to see my projects
+I am a dedicated web developer certified under the **National Skills Development Authority** and **Bangladesh Technical Education Board** with expertise in modern web technologies. I create responsive, user-friendly websites that help businesses grow online.
 
-👋 Hi, I’m @githubramim
-👀 I’m interested in Developing
-🌱 I’m currently learning Php and Laravel
-📫 How to reach me? +8801889421708 is my personal WhatsApp number.
+### Core Competencies
+- ✅ Full Stack Development
+- ✅ Responsive Design
+- ✅ Performance Optimization
+- ✅ SEO Friendly Solutions
 
+---
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 🚀 Services
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+### Web Design
+Beautiful and modern UI/UX design tailored to your brand
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+### Web Development
+Full-stack development solutions using latest technologies
+
+### Optimization
+Performance and SEO optimization for better visibility
+
+---
+
+## 📞 Contact Details
+
+| Category | Details |
+|----------|---------|
+| **Phone** | +880 1234567890 |
+| **Email** | your@email.com |
+| **Location** | Bangladesh |
+| **Timezone** | Asia/Dhaka (UTC+6) |
+
+### Quick Contact Links
+- 📞 [Call Me](tel:+8801234567890)
+- 📧 [Email Me](mailto:your@email.com)
+- 💼 [Hire Me](https://example.com/contact)
+- 🎯 [Fiverr Profile](https://www.fiverr.com/s/Ldb8xxj)
+
+---
+
+## 🌐 Social Links
+
+Connect with me on social media:
+
+| Platform | Link | Handle |
+|----------|------|--------|
+| **GitHub** | [github.com/githubramim](https://github.com/githubramim) | @githubramim |
+| **LinkedIn** | [linkedin.com/in/ramimhere](https://linkedin.com/in/ramimhere) | @ramimhere |
+| **Twitter** | [twitter.com/TBFRamim](https://twitter.com/TBFRamim) | @TBFRamim |
+| **Facebook** | [facebook.com/TanvirRamimDM](https://facebook.com/TanvirRamimDM) | TanvirRamimDM |
+
+### Social Icons
+- 🐙 GitHub - Code repositories and projects
+- 💼 LinkedIn - Professional network
+- 🐦 Twitter - Web development updates
+- 👥 Facebook - Community engagement
+
+---
+
+## 🔗 Additional Links
+
+- **Google Profile**: [View on Google](https://share.google/BqXAJUzlVPOkopbbl)
+- **Google Reviews**: [Reviews on Google](https://g.page/r/CS0tyZQVUi_UEAE/review)
+
+---
+
+## 📝 Latest Articles
+
+- **Web Development Trends 2025** - Explore the latest industry trends
+- **CSS Tips and Tricks** - Master modern CSS techniques
+- **JavaScript Best Practices** - Write better JavaScript code
+
+---
+
+## ⚡ Tech Stack
+
+- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap 5
+- **Backend**: PHP, Node.js
+- **Design**: UI/UX, Responsive Design
+- **Tools**: Git, VS Code, Figma
+
+---
+
+## 📜 License & Credits
+
+© Tanvir Bin Faruk Ramim. All rights reserved.
+
+Made with ❤️ by **Tanvir Bin Faruk Ramim**
+
+---
+
+**Last Updated**: November 2025
